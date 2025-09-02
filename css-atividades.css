@@ -80,6 +80,7 @@ html{
         font-size: 50px;
         display: grid;
         gap: 5px;
+        font-family: "Lexend", sans-serif;
     }
 
     .arquivos a{
@@ -175,6 +176,7 @@ html{
         font-size: 30px;
         display: grid;
         gap: 5px;
+        font-family: "Lexend", sans-serif;
     }
 
     .arquivos a{
@@ -184,3 +186,4 @@ html{
     }
 
     }
+
