@@ -78,4 +78,86 @@
         color: inherit;
         text-decoration: none;
         font-family: "Lexend", sans-serif;
+
+    }
+
+ @media screen and (max-width: 780px) {
+        html{
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    body {
+      background-image: url(fundo.jpg);
+      background-size: cover;
+      background-position: center;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .cabecalho{
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      width: 100vw;
+      height: 100px;
+      justify-content: space-between;
+    }
+
+    .cabecalho img{
+      width: 50px;
+    }
+
+    .cabecalho a{
+      text-decoration: none;
+      color: inherit;
+      font-size: 15px;
+    }
+
+    .cabecalho ul{
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .cabecalho li:hover{
+      text-decoration:underline;
+    }
+
+    .paginas{
+      display: flex;
+      font-family: "Titan One", sans-serif;
+      align-items: center;
+    }
+
+    .paginas img{
+      width: 50px;
+      height: 50px;
+    }
+
+    .logos{
+      display: flex;
+      align-items: center;
+    }
+
+    .lgs{
+      display: grid;
+      gap: 0px;
+    }
+
+    .lgs img{
+      width: 70px;
+    }
+
+    .corpo{
+      display: grid;
+      font-family: "Lexend", sans-serif;
+    }
+
+    .corpo img{
+      width: 300px;
+    }
     }
