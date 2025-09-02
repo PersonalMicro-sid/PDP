@@ -1,0 +1,75 @@
+    html{
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    body {
+      background-image: url(fundo.jpg);
+      background-size: cover;
+      background-position: center;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .cabecalho{
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      width: 100vw;
+      height: 100px;
+      justify-content: space-between;
+    }
+
+    .cabecalho img{
+      width: 88px;
+    }
+
+    .cabecalho a{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .cabecalho ul{
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .cabecalho li:hover{
+      text-decoration:underline;
+    }
+
+    .paginas{
+      display: flex;
+      font-family: "Titan One", sans-serif;
+    }
+
+    .paginas img{
+      width: 100px;
+    }
+
+    .logos{
+      display: flex;
+      align-items: center;
+    }
+
+    .lgs{
+      display: grid;
+      gap: 0px;
+    }
+
+    .lgs img{
+      width: 150px;
+    }
+
+    .corpo{
+      display: flex;
+      font-family: "Lexend", sans-serif;
+    }
+
+    .corpo img{
+      width: 700px;
+    }
