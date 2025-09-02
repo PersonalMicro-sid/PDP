@@ -89,7 +89,8 @@
 
     body {
       background-image: url(fundo.jpg);
-      background-size: cover;
+      background-size: 1500px;
+      background-repeat: no-repeat;
       background-position: center;
       color: rgb(255, 255, 255);
       text-align: center;
@@ -161,3 +162,4 @@
       width: 300px;
     }
     }
+
