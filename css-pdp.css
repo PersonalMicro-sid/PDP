@@ -72,11 +72,9 @@
     .corpo {
     display: flex;
     font-family: "Lexend", sans-serif;
-    justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: auto;
     flex: 0;
-    padding-top: 20px;
   }
 
     .corpo img{
@@ -211,6 +209,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
