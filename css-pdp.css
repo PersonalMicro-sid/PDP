@@ -69,13 +69,15 @@
       width: 150px;
     }
 
-    .corpo{
-      display: flex;
-      font-family: "Lexend", sans-serif;
-      flex: 0;
-      align-items: center;
-      height: 100px;
-    }
+    .corpo {
+    display: flex;
+    font-family: "Lexend", sans-serif;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    flex: 0;
+    padding-top: 20px;
+  }
 
     .corpo img{
       width: 700px;
@@ -209,6 +211,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
