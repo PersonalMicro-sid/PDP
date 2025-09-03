@@ -70,25 +70,26 @@
     }
 
     .corpo{
-      display: flex;
-      font-family: "Lexend", sans-serif;
-      justify-content: center;
-      flex: 1;
-      height: 80px;
-    }
+  display: flex;
+  font-family: "Lexend", sans-serif;
+  justify-content: center;
+  align-items: flex-start; /* <<< faz o conteúdo ficar no topo */
+  flex: 1;
+  padding-top: 40px; /* <<< aproxima mais do cabeçalho */
+  height: auto; /* <<< tira a trava que estava empurrando */
+}
 
     .corpo h1{
         font-size: 50px;
     }
 
     .arquivos{
-        font-size: 30px;
-        display: grid;
-        gap: 5px;
-        font-family: "Lexend", sans-serif;
-        flex:1;
-        margin:0;
-    }
+  font-size: 30px;
+  display: grid;
+  gap: 5px;
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+}
 
     .arquivos a{
         text-decoration: none;
@@ -215,6 +216,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
