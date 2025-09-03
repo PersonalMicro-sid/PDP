@@ -94,7 +94,6 @@
       align-items: center;
       margin-left: 50px;
       margin-top:60px;
-      flex: 0;
     }
 
 footer{
@@ -209,6 +208,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
