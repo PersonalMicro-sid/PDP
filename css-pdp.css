@@ -74,6 +74,7 @@
       font-family: "Lexend", sans-serif;
       flex: 1;
       align-items: center;
+      height: 100px;
     }
 
     .corpo img{
@@ -204,6 +205,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
