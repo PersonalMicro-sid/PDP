@@ -1,6 +1,7 @@
-    html{
+   html{
       margin: 0 auto;
       padding: 0;
+      height: 100%;
     }
 
     body {
@@ -11,6 +12,9 @@
       text-align: center;
       margin: 0;
       padding: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
     }
 
     .cabecalho{
@@ -68,6 +72,8 @@
     .corpo{
       display: flex;
       font-family: "Lexend", sans-serif;
+      flex: 1;
+      align-items: center;
     }
 
     .corpo img{
@@ -87,6 +93,20 @@
       align-items: center;
       margin-left: 50px;
       margin-top:60px;
+    }
+
+footer{
+      width: 100%;
+      height: 70px;
+      background-color: rgba(0, 0, 0, 0.5);
+      align-items: center;
+    }
+
+    .rodape{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 10px;
+      align-items: center;
     }
 
  @media screen and (max-width: 780px) {
@@ -174,7 +194,17 @@
       margin-left: 0px;
       font-size: 12px;
     }
+
+     .rodape{
+        font-size: 10px;
+        word-break: break-all;
+      }
+
+      footer{
+        height: 50px;
+      }
     }
+
 
 
 
