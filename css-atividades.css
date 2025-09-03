@@ -89,7 +89,7 @@
        gap: 5px;
        font-family: "Lexend", sans-serif;
        margin: 0;
-       flex: 0;
+       flex: 1;
    }
 
     .arquivos a{
@@ -103,7 +103,6 @@ footer{
       height: 60px;
       background-color: rgba(0, 0, 0, 0.5);
       align-items: center;
-      flex: 1;
     }
 
     .rodape{
@@ -218,6 +217,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
