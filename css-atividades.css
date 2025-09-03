@@ -74,6 +74,7 @@
       font-family: "Lexend", sans-serif;
       justify-content: center;
       flex: 1;
+      height: 100px;
     }
 
     .corpo h1{
@@ -213,6 +214,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
