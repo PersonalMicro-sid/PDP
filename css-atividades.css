@@ -72,7 +72,6 @@
     .corpo{
       display: flex;
       font-family: "Lexend", sans-serif;
-      align-items: center;
       justify-content: center;
       flex: 1;
     }
@@ -213,6 +212,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
