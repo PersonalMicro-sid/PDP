@@ -122,7 +122,7 @@
     .cabecalho a{
       text-decoration: none;
       color: inherit;
-      font-size: 15px;
+      font-size: 10px;
     }
 
     .cabecalho ul{
@@ -172,8 +172,10 @@
 
     .txt1{
       margin-left: 0px;
+      font-size: 12px;
     }
     }
+
 
 
 
