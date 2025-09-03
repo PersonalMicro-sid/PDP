@@ -211,8 +211,8 @@ footer{
         font-family: "Lexend", sans-serif;
     }
 
-          .rodape{
-        font-size: 10px;
+     .rodape{
+        font-size: 5px;
         word-break: break-all;
       }
 
@@ -220,6 +220,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
