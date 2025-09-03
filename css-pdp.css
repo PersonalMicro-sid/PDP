@@ -72,7 +72,7 @@
     .corpo{
       display: flex;
       font-family: "Lexend", sans-serif;
-      flex: 1;
+      flex: 0;
       align-items: center;
       height: 100px;
     }
@@ -94,6 +94,7 @@
       align-items: center;
       margin-left: 50px;
       margin-top:60px;
+      flex: 0;
     }
 
 footer{
@@ -101,6 +102,9 @@ footer{
       height: 70px;
       background-color: rgba(0, 0, 0, 0.5);
       align-items: center;
+      flex: 0;
+      position: absolute;
+      bottom: 0;
     }
 
     .rodape{
@@ -205,6 +209,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
