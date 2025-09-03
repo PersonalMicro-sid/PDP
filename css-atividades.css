@@ -74,7 +74,7 @@
       font-family: "Lexend", sans-serif;
       justify-content: center;
       flex: 1;
-      height: 100px;
+      height: 80px;
     }
 
     .corpo h1{
@@ -86,7 +86,6 @@
         display: grid;
         gap: 5px;
         font-family: "Lexend", sans-serif;
-        align-items: center;
     }
 
     .arquivos a{
@@ -214,6 +213,7 @@ footer{
         height: 50px;
       }
     }
+
 
 
 
