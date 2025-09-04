@@ -99,7 +99,7 @@
         font-family: "Lexend", sans-serif;
     }
 
-    .arquivo a:only-child (:last-child){
+        a:last-child{
        margin-bottom: 70px;
     }
 
@@ -225,6 +225,7 @@
         height: 50px;
       }
     }
+
 
 
 
