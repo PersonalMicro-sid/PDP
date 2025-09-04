@@ -204,7 +204,7 @@
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 419px) {
         html{
       margin: 0 auto;
       padding: 0;
@@ -294,9 +294,10 @@
     }
 
     .fotos img{
-        width: 90px;
+        width: 100px;
     }
 
 }
+
 
 
