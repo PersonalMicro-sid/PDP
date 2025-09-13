@@ -216,7 +216,17 @@ footer{
       footer{
         height: 50px;
       }
+
+    .image img{
+      width: 250px;
     }
+
+    .image{
+      display: flex;
+      justify-content: center;
+    }
+    }
+
 
 
 
