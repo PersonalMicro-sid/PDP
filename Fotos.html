@@ -46,8 +46,8 @@
   </section>
   <section class="corpo">
     <div class="fotos">
-        <img src="Imagem pdp 1.jpg" alt="alunos">
-        <img src="Imagem pdp 2.jpg" alt="alunos"><br>
+        <a href="#img1"><img src="Imagem pdp 1.jpg" alt="alunos"></a>
+        <a href="#img2"><img src="Imagem pdp 2.jpg" alt="alunos"></a><br>
         </div>
         <div class="text">
             <p><strong>IMAGENS DOS ALUNOS :)</strong></p>
@@ -66,6 +66,21 @@
       </div>
     </selection>
   </footer>
+
+  <div id="img1" class="overlay">
+    <a href="#img2" class="nav prev">&#10094;</a>
+    <img src="Imagem pdp 1.jpg" alt="Imagem 1">
+    <a href="#img2" class="nav next">&#10095;</a>
+    <a href="#" class="close">&times;</a>
+  </div>
+
+  <div id="img2" class="overlay">
+    <a href="#img1" class="nav prev">&#10094;</a>
+    <img src="Imagem pdp 2.jpg" alt="Imagem 2">
+    <a href="#img1" class="nav next">&#10095;</a>
+    <a href="#" class="close">&times;</a>
+  </div>
 </body>
 
 </html>
+
