@@ -292,6 +292,18 @@
     .fotos img{
         width: 100px;
     }
+
+     .nav{
+      font-size: 1em;
+      width:5px;
+      height: 4px;
+    }
+
+    .download{
+      width: 15px;
+      height: 15px;
+      font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 419px) {
@@ -387,4 +399,5 @@
         width: 90px;
     }
 }
+
 
