@@ -82,19 +82,20 @@
 
     .fotos{
         margin:50px;
+        cursor: pointer;
     }
 
     .fotos img{
- width: 250px;
+      width: 250px;
     }
 
-   footer{
+    footer{
       width: 100%;
       height: 60px;
       background-color: rgba(0, 0, 0, 0.5);
       align-items: center;
       flex: 0;
-      position: fixed;
+      position: absolute;
       bottom: 0;
     }
 
@@ -105,7 +106,7 @@
       align-items: center;
     }
 
-.overlay {
+     .overlay {
       position: fixed;
       top: 0; left: 0;
       width: 100%; height: 100%;
@@ -134,23 +135,32 @@
       display: flex;
     }
 
-    .nav {
+    .nav{
       position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       top: 50%;
       font-size: 2em;
-      color: white;
+      color: rgb(22, 127, 247);
       text-decoration: none;
       padding: 20px;
       transform: translateY(-50%);
       user-select: none;
+      border: 1px solid rgb(255, 255, 255);
+      background-color: white;
+      border-radius: 50%;
+      width: 10px;
+      height: 9px;
     }
 
     .nav:hover {
-      color: #ddd;
+      color: rgb(221, 233, 247);
+      background-color: rgb(168, 168, 168);
     }
 
-    .prev { left: 20px; }
-    .next { right: 20px; }
+    .prev { left: 20px;}
+    .next { right: 20px;}
 
     .close {
       position: absolute;
@@ -164,6 +174,24 @@
       color: #ff4d4d;
     }
 
+    .download{
+      text-decoration: none;
+      color: rgb(22, 127, 247);
+      position: absolute;
+      top: 20px; left: 30px;
+      font-size: 2em;
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 37px;
+      height: 37px;
+      background-color: white;
+    }
+
+    .download:hover{
+      background-color:rgb(168, 168, 168);
+      color: rgb(221, 233, 247);
+      border: 2px dashed rgb(206, 206, 206);
+    }
     @media screen and (max-width: 780px) {
          html{
       margin: 0 auto;
@@ -197,7 +225,7 @@
     .cabecalho a{
       text-decoration: none;
       color: inherit;
-      font-size: 8px;
+      font-size: 10px;
     }
 
     .cabecalho ul{
@@ -237,7 +265,7 @@
     }
 
     .rodape{
-        font-size: 8px;
+        font-size: 10px;
         word-break: break-all;
       }
 
@@ -263,7 +291,7 @@
     }
 
     .fotos img{
-        width: 120px;
+        width: 100px;
     }
 }
 
@@ -300,7 +328,7 @@
     .cabecalho a{
       text-decoration: none;
       color: inherit;
-      font-size: 8px;
+      font-size: 10px;
     }
 
     .cabecalho ul{
@@ -357,14 +385,6 @@
     }
 
     .fotos img{
-        width: 100px;
+        width: 90px;
     }
-
 }
-
-
-
-
-
-
-
