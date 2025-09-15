@@ -398,6 +398,19 @@
     .fotos img{
         width: 90px;
     }
+
+ .nav{
+      font-size: 1em;
+      width:3px;
+      height: 2px;
+    }
+
+    .download{
+      width: 6px;
+      height: 6px;
+      font-size: 1em;
+    }
 }
+
 
 
