@@ -95,7 +95,7 @@
       background-color: rgba(0, 0, 0, 0.5);
       align-items: center;
       flex: 0;
-      position: absolute;
+      position: fixed;
       bottom: 0;
     }
 
@@ -426,3 +426,4 @@
       font-size: 1em;
     }
 }
+
