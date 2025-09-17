@@ -15,13 +15,14 @@
       height: 100%;
       display: flex;
       flex-direction: column;
+      font-family: "Lexend", sans-serif;
     }
 
     .cabecalho{
       display: flex;
       background-color: rgba(0, 0, 0, 0.5);
       color: white;
-      width: 100vw;
+      width: 100%;
       height: 100px;
       justify-content: space-between;
     }
@@ -85,6 +86,7 @@
       justify-content: center;
       margin-left: 50px;
       align-items: start;
+      font-size: 15px;
     }
 
     .image img{
@@ -97,11 +99,28 @@
       width:100%;
     }
 
+    .avisos{
+      height: 500px;
+      width: 80%;
+      font-size: 30px;
+      background-color: rgba(0, 95, 158, 0.5);
+      justify-content: center;
+      border: 2px solid white;
+      border-radius: 24px;
+    }
+
+    .avi{
+      justify-content: center;
+      display: flex;
+      margin-bottom: 100px;
+    }
+
      footer{
       width: 100%;
-      height: 70px;
+      height: 350px;
       background-color: rgba(0, 0, 0, 0.5);
       align-items: center;
+      bottom: 0;
     }
 
     .rodape{
@@ -109,6 +128,7 @@
       justify-content: space-between;
       margin: 0 10px;
       align-items: center;
+      bottom: 0;
     }
 
     @media screen and (max-width: 780px) {
@@ -193,7 +213,7 @@
     }
 
       .rodape{
-        font-size: 10px;
+        font-size: 8px;
         word-break: break-all;
       }
 
@@ -203,6 +223,7 @@
 
       .txt1{
         margin-left: 0;
+        font-size: 8px;
       }
 
       .image img{
@@ -212,5 +233,9 @@
     .image{
       display: flex;
       justify-content: center;
+    }
+
+    .avisos{
+      font-size: 12px;
     }
     }
