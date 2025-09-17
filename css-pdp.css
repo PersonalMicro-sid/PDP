@@ -1,4 +1,4 @@
-   html{
+    html{
       margin: 0 auto;
       padding: 0;
       height: 100%;
@@ -69,51 +69,39 @@
       width: 150px;
     }
 
-    .corpo {
-    display: flex;
-    font-family: "Lexend", sans-serif;
-    align-items: center;
-    height: auto;
-    flex: 0;
-  }
+    .corpo{
+      display: flex;
+      font-family: "Lexend", sans-serif;
+      flex: 1;
+      align-items: center;
+    }
 
     .corpo img{
       width: 700px;
     }
 
-    .download a{
-        color: inherit;
-        text-decoration: none;
-        font-family: "Lexend", sans-serif;
-
-    }
-
-.txt1{
+    .txt1{
       display: flex;
       justify-content: center;
-      align-items: center;
       margin-left: 50px;
-      margin-top:60px;
+      align-items: start;
     }
 
-.image img{
-      width: 650px;
+    .image img{
+      width:650px;
     }
 
-.image{
+    .image{
       display: flex;
       justify-content: center;
       width:100%;
     }
 
- footer{
+     footer{
       width: 100%;
-      height: 60px;
+      height: 70px;
       background-color: rgba(0, 0, 0, 0.5);
       align-items: center;
-      flex: 0;
-      position: fixed;
-      bottom: 0;
     }
 
     .rodape{
@@ -123,7 +111,7 @@
       align-items: center;
     }
 
- @media screen and (max-width: 780px) {
+    @media screen and (max-width: 780px) {
         html{
       margin: 0 auto;
       padding: 0;
@@ -156,13 +144,13 @@
     .cabecalho a{
       text-decoration: none;
       color: inherit;
-      font-size: 8px;
+      font-size: 10px;
     }
 
     .cabecalho ul{
       list-style-type: none;
       display: flex;
-      gap: 10px;
+      gap: 5px;
       align-items: center;
     }
 
@@ -204,13 +192,8 @@
       width: 300px;
     }
 
-    .txt1{
-      margin-left: 0px;
-      font-size: 12px;
-    }
-
-     .rodape{
-        font-size: 8px;
+      .rodape{
+        font-size: 10px;
         word-break: break-all;
       }
 
@@ -218,7 +201,11 @@
         height: 50px;
       }
 
-    .image img{
+      .txt1{
+        margin-left: 0;
+      }
+
+      .image img{
       width: 250px;
     }
 
@@ -227,21 +214,3 @@
       justify-content: center;
     }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
