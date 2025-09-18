@@ -65,6 +65,19 @@
       align-items: center;
     }
 
+    .logos a{
+      margin-right:50px;
+      transition: 1s;
+      width: 35px;
+    }
+
+    .logos a:hover{
+      background: linear-gradient(45deg, #F58529 0%, #FEDA77 25%, #DD2A7B 50%, #8134AF 75%, #515BD4 100%);
+      background-clip:text;
+      color: transparent;
+      border-radius: 50px;
+    }
+
     .lgs{
       display: grid;
       gap: 0px;
@@ -214,6 +227,10 @@
     .logos{
       display: flex;
       align-items: center;
+    }
+
+    .logos a{
+      margin-right: 10px;
     }
 
     .lgs{
