@@ -209,8 +209,8 @@
 
     body {
       background-image: url(fundo.jpg);
-        background-size: 1500px;
-      background-repeat: no-repeat;
+      background-size: cover;
+      background-repeat:unset;
       background-position: center;
       color: rgb(255, 255, 255);
       text-align: center;
@@ -411,7 +411,7 @@
     }
 
     .fotos img{
-        width: 80px;
+        width: 90px;
     }
 
     .nav{
@@ -426,5 +426,3 @@
       font-size: 1em;
     }
 }
-
-
