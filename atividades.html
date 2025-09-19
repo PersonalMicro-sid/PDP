@@ -19,6 +19,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 <link href="css-atividades.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
   <link rel="icon" href="PDP-logo.png" type="image/x-icon">
 
@@ -28,21 +29,24 @@
 
 <body>
   <header>
-  <section class="cabecalho">
+   <section class="cabecalho" id="meucb">
     <div class="paginas">
       <img src="PDP-logo.png" alt="PDP">
       <ul class="navegacao">
-        <li class="inicio"><a href="https://personalmicro-sid.github.io/PDP/">Inicio</a></li>
-        <li class="fotos"><a href="Fotos.html">Fotos</a></li>
+        <li class="inicio"><a href="index.html">Inicio</a></li>
+        <li class="atividades"><a href="Fotos.html">Fotos</a></li>
       </ul>
     </div>
 
     <div class="logos">
+      <a href="https://www.instagram.com/microlinssidrolandiams"><i class="fab fa-instagram fa-2x"></i></a>
+      <div class="imgs">
       <img src="carinha.png" alt="carinha">
-      <diV class="lgs">
+      <div class="lgs">
       <img src="logo-microlins.png" alt="micro">
       <img src="logo-faculdade.png" alt="facul">
-      </diV>
+      </div>
+      </div>
     </div>
   </section>
 </header>
@@ -52,27 +56,27 @@
     </h1></div>
   </section>
   <div class="arquivos">
-        <p>Atividade 1 - ComunicaçãoⓂ️🚀</p>
+        <p>Atividade 1 - comunicação</p>
         <a href="Comunicação PDP.pdf" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
         <a href="Ativadades da aula 1.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
 
-        <p>Atividade 2 - ProdutividadeⓂ️🚀</p>
-        <a href="Produtividade PDP.pdf" download="Slides Produtividade.pdf"><strong>BAIXAR SLIDES</strong></a>
+        <p>Atividade 2 - Dicas de entrevista</p>
+        <a href="#" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
+        <a href="Dicas de entrevista.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
+
+        <p>Atividade 3 - Produtividade</p>
+        <a href="" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
         <a href="Produtividade.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
 
-        <p>Atividade 3 - Dicas de entrevistaⓂ️🚀</p>
-        <a href="" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
-       <a href="Dicas de entrevista.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
-
-        <p>Atividade 4 - Curriculo 2.0Ⓜ️🚀</p>
+        <p>Atividade 4 - Curriculo 2.0</p>
         <a href="" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
         <a href="Curriculo 2.0.zip" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
 
-        <p>Atividade 5 - Marketing PessoalⓂ️🚀</p>
+        <p>Atividade 5 - Marketing Pessoal</p>
         <a href="Comunicação PDP.pdf" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
         <a href="Marketing Pessoal.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
     </div>
-  <footer>
+    <footer>
     <selection class="rodape">
       <div class="autor">
         <p>
@@ -85,16 +89,16 @@
       </div>
     </selection>
   </footer>
+
+  <script>
+    window.addEventListener('scroll', ()=> {
+      const header = document.getElementById('meucb');
+      if(window.scrollY > 50){
+        header.classList.add('rolar');
+      }else{
+        header.classList.remove('rolar');
+      }
+    });
+  </script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
