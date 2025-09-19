@@ -378,7 +378,7 @@
     .text{
         width: 30%;
         font-family:"Lexend", sans-serif;
-        font-size: 15px;
+        font-size: 10px;
         justify-content: center;
         margin: 0;
     }
@@ -388,7 +388,7 @@
     }
 
     .fotos img{
-        width: 80px;
+        width: 60px;
     }
 
     .nav{
@@ -408,3 +408,4 @@
       left:55px; top:13px
     }
 }
+
