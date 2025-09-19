@@ -19,6 +19,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 <link href="css-fotos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
   <link rel="icon" href="PDP-logo.png" type="image/x-icon">
 
@@ -27,7 +28,7 @@
 </head>
 <body>
 <header>
-  <section class="cabecalho">
+  <section class="cabecalho" id="meucb">
     <div class="paginas">
       <img src="PDP-logo.png" alt="PDP">
       <ul class="navegacao">
@@ -37,11 +38,14 @@
     </div>
 
     <div class="logos">
+      <a href="https://www.instagram.com/microlinssidrolandiams"><i class="fab fa-instagram fa-2x"></i></a>
+      <div class="imgs">
       <img src="carinha.png" alt="carinha">
-      <diV class="lgs">
+      <div class="lgs">
       <img src="logo-microlins.png" alt="micro">
       <img src="logo-faculdade.png" alt="facul">
-      </diV>
+      </div>
+      </div>
     </div>
   </section>
   <section class="corpo">
@@ -80,7 +84,7 @@
   </div>
 
   <div id="img2" class="overlay">
-     <a class="download" href="Imagem pdp 2.jpg" download="imagem 2.jpg">&#10515;</a>
+     <a class="download" href="Imagem pdp 2.jpg" download="imagem 1.jpg">&#10515;</a>
      <p>DOWNLOAD</p>
     <a href="#img1" class="nav prev">&#10094;</a>
     <img src="Imagem pdp 2.jpg" alt="Imagem 2">
@@ -89,7 +93,7 @@
   </div>
 
   <div id="img3" class="overlay">
-     <a class="download" href="Imagem pdp 1 17-09.jpg" download="imagem 3.jpg">&#10515;</a>
+     <a class="download" href="Imagem pdp 1 17-09.jpg" download="imagem 1.jpg">&#10515;</a>
      <p>DOWNLOAD</p>
     <a href="#img2" class="nav prev">&#10094;</a>
     <img src="Imagem pdp 1 17-09.jpg" alt="Imagem 2">
@@ -98,7 +102,7 @@
   </div>
 
   <div id="img4" class="overlay">
-     <a class="download" href="imagem pdp 2 17-09.jpg" download="imagem 4.jpg">&#10515;</a>
+     <a class="download" href="imagem pdp 2 17-09.jpg" download="imagem 1.jpg">&#10515;</a>
      <p>DOWNLOAD</p>
     <a href="#img3" class="nav prev">&#10094;</a>
     <img src="imagem pdp 2 17-09.jpg" alt="Imagem 2">
@@ -107,14 +111,24 @@
   </div>
 
   <div id="img5" class="overlay">
-     <a class="download" href="imagem pdp 3 17-09.jpg" download="imagem 5.jpg">&#10515;</a>
+     <a class="download" href="imagem pdp 3 17-09.jpg" download="imagem 1.jpg">&#10515;</a>
      <p>DOWNLOAD</p>
     <a href="#img4" class="nav prev">&#10094;</a>
     <img src="imagem pdp 3 17-09.jpg" alt="Imagem 2">
     <a href="#img1" class="nav next">&#10095;</a>
     <a href="#" class="close">&times;</a>
   </div>
-</body>
 
+  <script>
+    window.addEventListener('scroll', ()=> {
+      const header = document.getElementById('meucb');
+      if(window.scrollY > 50){
+        header.classList.add('rolar');
+      }else{
+        header.classList.remove('rolar');
+      }
+    });
+  </script>
+</body>
 </html>
 
