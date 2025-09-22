@@ -227,6 +227,7 @@
     .anna a{
       text-decoration: none;
       color: inherit;
+      font-size: 12px;
     }
 
     .anna{
@@ -442,6 +443,7 @@
   .anna p{
       border: 1.5px solid white;
       border-radius: 50px;
-      width: 80px;
+      width: 150px;
     }
 }
+
