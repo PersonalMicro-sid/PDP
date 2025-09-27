@@ -15,6 +15,7 @@
       height: 100%;
       display: flex;
       flex-direction: column;
+      font-family: "Lexend", sans-serif;
     }
 
     .imgs{
@@ -33,6 +34,12 @@
       background-color: rgba(255, 255, 255, 0.267);
     }
 
+    #meucb.rolar .paginas img{
+      width: 65px;
+      border: 2px solid white;
+      border-radius: 15px;
+    }
+
     .cabecalho{
       display: flex;
       background-color: rgba(18, 38, 129, 0.938);
@@ -42,6 +49,8 @@
       justify-content: space-between;
       position: fixed;
       transition: 0.3s;
+      z-index: 1000;
+      align-items: center;
     }
 
     .cabecalho img{
@@ -84,6 +93,7 @@
 
     .paginas img{
       width: 100px;
+      transition: 0.3s;
     }
 
     .logos{
@@ -93,7 +103,7 @@
 
     .logos a{
       margin-right:50px;
-      transition: 1s;
+      transition: 0.5s ease-in-out;
       width: 35px;
     }
 
@@ -114,42 +124,79 @@
       width: 150px;
     }
 
+    .Text_cabecalho{
+      margin: 0px 50px;
+      margin-top: 130px;
+      font-size: 16px;
+      word-wrap: break-word;
+      background-color: rgba(50, 40, 189, 0.658);
+      border: 2px dashed white;
+      border-radius: 10px;
+    }
+
+    .Text_cabecalho p{
+      margin: 20px 20px;
+    }
+
     .corpo{
       display: flex;
       align-items: center;
-      margin-top: 120px;
+      justify-content: center;
+      margin: 20px 50px;
+      background-color: rgba(50, 40, 189, 0.658);
+      border: 2px dashed white;
+      border-radius: 10px;
     }
 
-    .text{
-        width: 60%;
-        font-family:"Lexend", sans-serif;
-        font-size: 30px;
-    }
-
-    .fotos{
-        margin:50px;
-        cursor: pointer;
-    }
-
-    .fotos img{
-      width: 250px;
-    }
-
-    footer{
-      width: 100%;
-      height: 60px;
-      background-color: rgba(0, 0, 0, 0.5);
+    .fotos_esquerda, .fotos_direita{
+      display: grid;
+      gap: 5px;
+      width: 550px;
+      margin: 35px 0px;
+      justify-content: center;
       align-items: center;
-      flex: 0;
-      position: fixed;
-      bottom: 0;
+    }
+    .fotos_meio{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      margin: 35px 0px;
     }
 
-    .rodape{
-      display: flex;
-      justify-content: space-between;
-      margin: 0 10px;
-      align-items: center;
+    .fotos_esquerda img, .fotos_meio img, .fotos_direita img{
+      width: 450px;
+      border-radius: 15px;
+      border: 3px solid rgb(255, 255, 255);
+      transition: 0.3s ease-in-out;
+    }
+
+    .fotos_esquerda img:hover, .fotos_meio img:hover, .fotos_direita img:hover{
+      border-color: rgb(45, 129, 238);
+    }
+
+    .ft{
+      position: relative;
+    }
+
+    .link{
+      position: absolute;
+      top: 20px;
+      left: 15px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    .link a{
+      text-decoration: none;
+      color: rgba(18, 65, 219, 0.856);
+      text-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+
+    #fotos_over:hover .link{
+      opacity: 1;
+      visibility: visible;
     }
 
      .overlay {
@@ -247,6 +294,24 @@
       top: 14px; left: 80px;
       font-family: "Lexend", sans-serif;
     }
+
+    footer{
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      align-items: center;
+      bottom: 0;
+      margin-top: 100px;
+    }
+
+    .rodape{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 10px;
+      align-items: center;
+      bottom: 0;
+      height: 150px;
+    }
+
     @media screen and (max-width: 780px) {
          html{
       margin: 0 auto;
@@ -370,17 +435,39 @@
         height: 50px;
       }
 
+    .Text_cabecalho{
+      margin: 0px 50px;
+      margin-top: 130px;
+      font-size: 8px;
+      word-wrap: break-word;
+      background-color: rgba(50, 40, 189, 0.658);
+      border: 2px dashed white;
+      border-radius: 10px;
+    }
+
+    .Text_cabecalho p{
+      margin: 20px 20px;
+    }
+
+    .fotos_esquerda img, .fotos_meio img, .fotos_direita img{
+      width: 20vw;
+      border-radius: 15px;
+      border: 3px solid rgb(255, 255, 255);
+    }
+
+    .link{
+      opacity: 1;
+      visibility: visible;
+      top: 5px;
+    }
+
+    .link a{
+      font-size: 1.5vw;
+    }
+
       .corpo{
         display: flex;
         align-items: center;
-    }
-
-    .text{
-        width: 30%;
-        font-family:"Lexend", sans-serif;
-        font-size: 10px;
-        justify-content: center;
-        margin: 0;
     }
 
     .fotos{
@@ -388,7 +475,7 @@
     }
 
     .fotos img{
-        width: 60px;
+        width: 80px;
     }
 
     .nav{
@@ -409,3 +496,10 @@
     }
 }
 
+@media screen and (max-width: 360px){
+  .fotos_esquerda img, .fotos_meio img, .fotos_direita img{
+      width: 18vw;
+      border-radius: 15px;
+      border: 3px solid rgb(255, 255, 255);
+    }
+}
