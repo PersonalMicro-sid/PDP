@@ -381,12 +381,12 @@
     .paginas img{
       width: 50px;
       height: 50px;
-      margin-top: 5px;
+      margin-top: 0px;
       transition: 0.3s;
     }
 
     #meucb.rolar .paginas{
-      margin-top: 15px;
+      margin-top: 0px;
       height: 50px;
     }
 
@@ -436,7 +436,7 @@
       }
 
     .Text_cabecalho{
-      margin: 0px 50px;
+      margin: 0px 20px;
       margin-top: 130px;
       font-size: 8px;
       word-wrap: break-word;
@@ -450,7 +450,7 @@
     }
 
     .fotos_esquerda img, .fotos_meio img, .fotos_direita img{
-      width: 20vw;
+      width: 70vw;
       border-radius: 15px;
       border: 3px solid rgb(255, 255, 255);
     }
@@ -466,8 +466,9 @@
     }
 
       .corpo{
-        display: flex;
+        display:grid;
         align-items: center;
+        margin: 20px 20px;
     }
 
     .fotos{
@@ -493,13 +494,5 @@
     .overlay p{
       font-size: 10px;
       left:55px; top:13px
-    }
-}
-
-@media screen and (max-width: 360px){
-  .fotos_esquerda img, .fotos_meio img, .fotos_direita img{
-      width: 18vw;
-      border-radius: 15px;
-      border: 3px solid rgb(255, 255, 255);
     }
 }
