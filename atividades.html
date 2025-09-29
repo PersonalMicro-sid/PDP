@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="a6LPHjhqkHqJAWVEoDH7cR0hAGMgZhMJzqxuycTszLo">
+  <meta name="description" content="Seu futuro proissional">
+  <meta name="author" content="Cadu, Cadusquela, Carlos Eduardo">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="PDP">
+  <meta property="og:description" content="Seu futuro proissional.">
+  <meta property="og:type" content="website">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<link href="css-atividades.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="icon" href="PDP-logo.png" type="image/x-icon">
+
+  <title>PDP atividades</title>
+
+</head>
+
+<body>
+  <header>
+   <section class="cabecalho" id="meucb">
+    <div class="paginas">
+      <img src="PDP-logo.png" alt="PDP">
+      <ul class="navegacao">
+        <li class="inicio"><a href="index.html">Inicio</a></li>
+        <li><a href="#">Atividades</a></li>
+        <li class="galeria"><a href="Fotos.html">Galeria</a></li>
+      </ul>
+    </div>
+
+    <div class="logos">
+      <a href="https://www.instagram.com/microlinssidrolandiams"><i class="fab fa-instagram fa-2x"></i></a>
+      <div class="imgs">
+      <img src="carinha.png" alt="carinha">
+      <div class="lgs">
+      <img src="logo-microlins.png" alt="micro">
+      <img src="logo-faculdade.png" alt="facul">
+      </div>
+      </div>
+    </div>
+  </section>
+</header>
+  <section class="corpo">
+    <div><h1>
+        Atividades :)
+    </h1></div>
+  </section>
+  <div class="arquivos">
+    <div class="tag">
+      <a class="btn" data-target="atv1">&#9660;</a>
+      <p>Atividade 1 - ComunicaçãoⓂ️🚀</p>
+    </div>
+    
+
+    <div class="atividades" id="atv1">
+          <a href="Comunicação PDP.pdf" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
+          <a href="Ativadades da aula 1.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
+    </div>
+
+    <div class="tag">
+    <a class="btn" data-target="atv2">&#9660;</a>
+    <p>Atividade 2 - ProdutividadeⓂ️🚀</p>
+    </div>
+
+    <div class="atividades" id="atv2">
+          <a href="" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
+          <a href="Produtividade.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
+    </div>
+
+    <div class="tag">
+    <a class="btn" data-target="atv3">&#9660;</a>
+    <p>Atividade 3 - Dicas de entrevistaⓂ️🚀</p>
+    </div>
+
+    <div class="atividades" id="atv3">
+        <a href="Dicas de Entrevista PDP.pdf" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
+        <a href="Dicas de entrevista.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
+    </div>
+
+    <div class="tag">
+    <a class="btn" data-target="atv4">&#9660;</a>
+    <p>Atividade 4 - Curriculo 2.0Ⓜ️🚀</p>
+    </div>
+
+    <div class="atividades" id="atv4">
+        <a href="" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
+        <a href="Curriculo 2.0.zip" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
+    </div>
+
+    <div class="tag">
+    <a class="btn" data-target="atv5">&#9660;</a>
+    <p>Atividade 5 - Marketing PessoalⓂ️🚀</p>
+    </div>
+
+    <div class="atividades" id="atv5">
+        <a href="Comunicação PDP.pdf" download="Slides Comunicação.pdf"><strong>BAIXAR SLIDES</strong></a>
+        <a href="Marketing Pessoal.pdf" download="Atividades.pdf"><strong>BAIXAR ATIVIDADES</strong></a>
+    </div>
+    </div>
+    <footer>
+    <section class="rodape">
+      <div class="autor">
+        <p>
+          Criado por: Carlos Eduardo S. do Nascimento <br> Cocriado por: Camille Pereira Duarte
+        </p>
+      </div>
+
+      <div class="contato">
+        <p>Contato: carlossanabre2005@gmail.com</p>
+      </div>
+    </section>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', ()=> {
+      const header = document.getElementById('meucb');
+      if(window.scrollY > 50){
+        header.classList.add('rolar');
+      }else{
+        header.classList.remove('rolar');
+      }
+    });
+
+    const btn = document.querySelectorAll('.btn');
+    const atv = document.querySelectorAll('.atividades');
+
+    btn.forEach(link =>{
+      link.addEventListener('click', (event) =>{
+        event.preventDefault();
+
+        const targetId = link.dataset.target;
+        const targetConteudo = document.getElementById(targetId);
+
+        atv.forEach(conteudo => {
+          if(conteudo.id !== targetId) {
+            conteudo.classList.remove('aparecer');
+          }
+        });
+
+        targetConteudo.classList.toggle('aparecer');
+      });
+    });
+
+  const btan = document.querySelectorAll('.btn');
+
+btan.forEach(bn => {
+    bn.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        const jaTemClasse = bn.classList.contains('rodar');
+
+        btan.forEach(seta => {
+            seta.classList.remove('rodar');
+        });
+
+        if (!jaTemClasse) {
+            bn.classList.add('rodar');
+        }
+    });
+});
+  </script>
+</body>
+</html>
